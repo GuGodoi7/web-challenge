@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+}
+.container-1 {
+    display: flex;  
+}
+.text-1 {
+   justify-content: center; 
+}
+.image-test img {
+    width: 700px;
+    height: 400px;
+}
+.image-test a {
+    color: black;
+}
