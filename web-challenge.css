@@ -1,5 +1,6 @@
 .title {
-    text-align: center;
+    text-align: left;
+    color: blue;
 }
 .container-1 {
     display: flex;  
@@ -13,4 +14,21 @@
 }
 .image-test a {
     color: black;
+}
+
+#teste{
+    margin: 0;
+    list-style: none;
+    background-color:white;
+}
+#teste li{
+    display: inline;
+    padding: 25px;
+}
+header{
+    padding: 0;;
+}
+#teste{
+    padding: 30px;
+    text-align: center;
 }
