@@ -1,16 +1,8 @@
 .title {
     text-align: left;
-    color: blue;
-}
-.container-1 {
-    display: flex;  
-}
-.text-1 {
-   justify-content: center; 
-}
-.image-test img {
-    width: 700px;
-    height: 400px;
+    color: black;
+    text-align: center;
+    display: flexbox;
 }
 .image-test a {
     color: black;
@@ -19,16 +11,30 @@
 #teste{
     margin: 0;
     list-style: none;
-    background-color:white;
+    
 }
 #teste li{
     display: inline;
     padding: 25px;
 }
-header{
-    padding: 0;;
-}
+
+
 #teste{
     padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.apre{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-image:url(MG_4294-1-scaled.jpg);
+}
+.aa{
+    font-size: xx-large;
+    text-align: center;
+}
+.ee{
     text-align: center;
 }
