@@ -12,3 +12,20 @@ table{
 body{
     background-color: aliceblue;
 }
+.imagem{
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+.amorgan{
+    width: 150px;
+    height: 150px;
+    padding: 100px;
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border: 50px;
+    padding: 50px;
+}
