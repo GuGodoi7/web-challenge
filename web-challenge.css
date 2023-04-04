@@ -1,8 +1,8 @@
 .title {
     text-align: left;
     color: black;
-    text-align: center;
     display: flexbox;
+    padding: 150px;
 }
 .image-test a {
     color: black;
@@ -34,7 +34,10 @@ body{
 .aa{
     font-size: xx-large;
     text-align: center;
+    padding: 50px;
+    
 }
 .ee{
     text-align: center;
+    font-size: xx-large;
 }
