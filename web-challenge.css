@@ -1,16 +1,43 @@
 .title {
-    text-align: center;
-}
-.container-1 {
-    display: flex;  
-}
-.text-1 {
-   justify-content: center; 
-}
-.image-test img {
-    width: 700px;
-    height: 400px;
+    text-align: left;
+    color: black;
+    display: flexbox;
+    padding: 150px;
 }
 .image-test a {
     color: black;
+}
+
+#teste{
+    margin: 0;
+    list-style: none;
+    
+}
+#teste li{
+    display: inline;
+    padding: 25px;
+}
+
+
+#teste{
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.apre{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-image:url(MG_4294-1-scaled.jpg);
+}
+.aa{
+    font-size: xx-large;
+    text-align: center;
+    padding: 50px;
+    
+}
+.ee{
+    text-align: center;
+    font-size: xx-large;
 }
