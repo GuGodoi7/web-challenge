@@ -1,43 +1,74 @@
-.title {
-    text-align: left;
-    color: black;
-    display: flexbox;
-    padding: 150px;
-}
-.image-test a {
-    color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-#teste{
+* {
     margin: 0;
-    list-style: none;
-    
-}
-#teste li{
-    display: inline;
-    padding: 25px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-#teste{
-    padding: 30px;
-    text-align: center;
-    font-size: xx-large;
-}
-.apre{
+.header-site {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    background-color: #1C1C1C;
+    width: 100vw;
+    min-height: 50px;
 }
-body{
-    background-image:url(MG_4294-1-scaled.jpg);
-}
-.aa{
-    font-size: xx-large;
+
+.title {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 50px;
-    
+    font-size: 35px;
+    margin-left: 20%;
+    color: white;
 }
-.ee{
-    text-align: center;
-    font-size: xx-large;
+
+.links ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.links a {
+    padding: 10px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    font-size: 30px;
+    color: white;
+}
+
+.links a:hover {
+    color: black;
+    background-color: white;
+}
+
+.center {
+    border-radius: 50px;
+    background-color: #87CEFA;
+    width: 100%;
+    min-height: 880px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.solution h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.solution p {
+    min-height: 20vw;
+    width: 30vw;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1C1C;
+    width: 100vw;
+    min-height: 77px;
 }
