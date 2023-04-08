@@ -42,8 +42,7 @@
 }
 
 .center {
-    border-radius: 50px;
-    background-color: #87CEFA;
+    background-image: url("./assets/ciclista.jpg");
     width: 100%;
     min-height: 880px;
     display: flex;
@@ -59,6 +58,24 @@
 .solution p {
     min-height: 20vw;
     width: 30vw;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.links_2 h1 {
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+}
+
+.telas p {
+    padding: 15px;
+}
+
+.telas {
+    height: 20vw;
+    min-width: 30vw;
     background-color: white;
     font-family: 'Roboto', sans-serif;
     padding: 30px;
